@@ -93,10 +93,9 @@
 		BE8AB4F82960517F006C2FF2 /* ContactApp */ = {
 			isa = PBXGroup;
 			children = (
-				BE8AB4F92960517F006C2FF2 /* AppDelegate.swift */,
-				BE8AB50229605180006C2FF2 /* Assets.xcassets */,
-				BE8AB50429605180006C2FF2 /* LaunchScreen.storyboard */,
-				BE8AB50729605180006C2FF2 /* Info.plist */,
+				BE8AB5292960535D006C2FF2 /* AppDelegate */,
+				BE8AB52A29605369006C2FF2 /* Storyboard */,
+				BE8AB52B2960537A006C2FF2 /* Resources */,
 			);
 			path = ContactApp;
 			sourceTree = "<group>";
@@ -116,6 +115,31 @@
 				BE8AB51C29605180006C2FF2 /* ContactAppUITestsLaunchTests.swift */,
 			);
 			path = ContactAppUITests;
+			sourceTree = "<group>";
+		};
+		BE8AB5292960535D006C2FF2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BE8AB4F92960517F006C2FF2 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BE8AB52A29605369006C2FF2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BE8AB50429605180006C2FF2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		BE8AB52B2960537A006C2FF2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE8AB50229605180006C2FF2 /* Assets.xcassets */,
+				BE8AB50729605180006C2FF2 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,7 +443,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VRQ6H42Z38;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ContactApp/Info.plist;
+				INFOPLIST_FILE = ContactApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -446,7 +470,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VRQ6H42Z38;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ContactApp/Info.plist;
+				INFOPLIST_FILE = ContactApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
