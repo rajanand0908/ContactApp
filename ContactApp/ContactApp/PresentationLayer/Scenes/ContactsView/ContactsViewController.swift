@@ -13,6 +13,21 @@ final class ContactsViewController: CustomViewController<ContactsView> {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    setup()
+  }
+  
+}
+
+private typealias SetupHelper = ContactsViewController
+private extension SetupHelper {
+  
+  func setup() {
+    setupNavigationBar()
+  }
+  
+  func setupNavigationBar() {
+    navigationController?.navigationBar.prefersLargeTitles = true
+    navigationItem.title = "Contacts"
   }
   
 }
